@@ -1076,8 +1076,7 @@ module powerbi.extensibility.visual {
                 const parsedString: any = JSON.parse(getJSONString);
                 this.resizeData = parsedString;
 
-
-                for (const iData of this.resizeData) {
+                for (const iData of Object.keys(this.resizeData)) {
                     if (iData === 'gridRow') {
                         const noOfGaps: number = this.getNumberOfGaps();
                         $(`.${iData}`).width(this.resizeData[iData] + (noOfGaps * 20));
