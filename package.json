@@ -2,17 +2,17 @@
   "name": "visual",
   "dependencies": {
     "d3": "^3.5.5",
-    "jquery": "^3.4.0",
+    "jquery": "^3.5.0",
     "lodash": "^4.17.15",
     "powerbi-visuals-tools": "^2.6.0",
     "powerbi-visuals-utils-formattingutils": "3.1.0",
-    "powerbi-visuals-utils-svgutils": "^1.2.0",
-    "typescript": "next"
+    "powerbi-visuals-utils-svgutils": "^1.2.0"
   },
   "devDependencies": {
-    "tslint": "^5.20.0",
     "@types/jquery": "^1.10.35",
-    "tslint-microsoft-contrib": "^6.2.0"
+    "tslint": "^5.20.0",
+    "tslint-microsoft-contrib": "^6.2.0",
+    "typescript": "^3.9.3"
   },
   "scripts": {
     "lint": "tslint -c tslint.json -p tsconfig.json"
